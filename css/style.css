@@ -1,71 +1,25 @@
-@font-face{
-  font-family: 'neue';
-  src: url(../fonts/BebasNeue-Regular.woff) format('woff');
+/* import fonts from fonts.css file */
+@import url(fonts.css);
+
+
+
+
+/* start navigation */
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
 }
 
-/* style utama */
-body{
-  font: 18px/36px 'neue', 'Arial Narrow', arial, sans-serif;
-  background-color: white;
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem;
 }
 
-.wrapper{
-  width: 100%;
-  margin: 0;
-  padding: 0;
+.header_area .main-menu .navbar .nav-item .nav-link{
+    font-family: "Roboto", cursive;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: black;
 }
 
-header #header {
-  width: 100%;
-  height: 70px;
-  background-color: #eeee;
-  overflow: hidden;
-}
-
-header #gambar{
-  float: left;
-}
-
-header #nav{
-  list-style: none;
-  padding-top: 1%;
-}
-
-header ul li{
-  float: right;
-  padding: 8px 20px;
-  border-right: 1px;
-}
-
-header ul li a{
-  color: black;
-  text-decoration: none;
-}
-
-header ul li:hover{
-  color: white;
-  text-decoration: none;
-}
-
-header ul li a:hover{
-  color: white;
-  text-decoration: none;
-}
-
-header #gambar2{
-  padding-top: 1%;
-  float: right;
-  width: 20%;
-  height: 20%;
-  padding-right: 30%;
-}
-
-header #gambar2 img{
-  width: 500px;
-  height: 500px;
-}
-
-header #jumbotron{
-  overflow: hidden;
-  height: 400pt;
-}
+/* End navigation */
